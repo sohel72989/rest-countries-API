@@ -1,0 +1,21 @@
+.countries img{
+    width: 300px;
+    height: 200px;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-color{
+    color: green;
+}
+.head-text{
+    color: red;
+    font-size: 40px;
+}
+.single-country{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 15px;
+}
